@@ -10,3 +10,11 @@ jobs:
       - uses: ./action-a
         with:
           MY_NAME: "Mona"
+          
+      - uses: actions/checkout@v1
+      - uses: ./action-b
+        with:
+          MY_NAME: "Noe"
+
+          
+
